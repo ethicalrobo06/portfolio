@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { SiFramer, SiFlask, SiReact, SiNodedotjs, SiNextdotjs } from 'react-icons/si'
+import { SiFlask, SiReact, SiNodedotjs, SiNextdotjs, SiMongodb } from 'react-icons/si'
 import { FaLemon } from 'react-icons/fa'
 import { color, motion, useAnimation } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
@@ -7,8 +7,8 @@ import { useInView } from 'react-intersection-observer'
 const stackItems = [
     {
         id: 1,
-        name: 'Framer',
-        icon: <SiFramer size={100} />,
+        name: 'MongoDB',
+        icon: <SiMongodb size={100} />,
         color: "text-emerald-200",
     },
     {
