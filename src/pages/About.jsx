@@ -9,14 +9,14 @@ function About() {
                 About <span className='text-emerald-300'>Me</span>
             </h2>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-                <div className='border border-white/20 rounded-lg p-6'>
+                {/* 1st part */}
+                <div className='group border border-white/20 rounded-lg p-6 hover:animate-flip'>
                     <h3 className='text-2xl font-bold mb-2'>01. Background</h3>
                     <p className='text-white/50 mb-6'>
-                        I'm a passionate web developer and a cyber security security with a strong foundation in computer
+                        I'm a passionate web developer and a cyber security expert with a strong foundation in computer
                         science and a love for creating innovative web solutions.
                         My journey in tech started with a curiosity about how things work.
                     </p>
-
                     <div className='rounded-lg p-4 mb-4 border border-white/20'>
                         <code className='text-emerald-200/50'>
                             const skills = [<br />
@@ -34,8 +34,8 @@ function About() {
                         </code>
                     </div>
                 </div>
-
-                <div className='border border-white/20 rounded-lg p-6'>
+                {/* 2nd part */}
+                <div className='group border border-white/20 rounded-lg p-6 hover:animate-flip'>
                     <h3 className='text-2xl font-bold mb-2'>02. Expertise</h3>
                     <p className='text-white/50'>
                         I specialize in building responsive and user-friendly websites using modern technologies like React, Next.js, and Tailwind CSS.
@@ -45,11 +45,11 @@ function About() {
                         <img
                             src={project1}
                             alt="project 1"
-                            className='absolute  inset-0 w-full h-full object-cover' />
+                            className='absolute inset-0 w-full h-full object-cover' />
                     </div>
                 </div>
-
-                <div className='border border-white/20 rounded-lg p-6'>
+                {/* 3rd part */}
+                <div className='group border border-white/20 rounded-lg p-6 hover:animate-flip'>
                     <h3 className='text-2xl font-bold mb-2'>03. Skills</h3>
                     <p className='text-white/50 mb-4'>
                         I'm a quick learner and a problem solver with a strong foundation in computer science. I have experience in web development, cyber security, and competitive programming.
@@ -77,6 +77,7 @@ function About() {
                     </div>
                 </div>
             </div>
+
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-8'>
                 <div className='border border-white/20 rounded-lg p-6'>
