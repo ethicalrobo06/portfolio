@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import proj1 from '../assets/images/proj9.png'
-import proj2 from '../assets/images/proj11.png'
+import proj1 from '../assets/images/dark.jpeg'
+import proj2 from '../assets/images/iphone.jpeg'
 import proj3 from '../assets/images/proj12.png'
+import proj4 from '../assets/images/portfolio.jpeg'
 import { FaGithub } from 'react-icons/fa'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import { FiChevronDown } from 'react-icons/fi'
@@ -16,7 +17,7 @@ const projects = [
         link: '#',
         git: '#',
         src: proj1,
-        type: "full stack"
+        type: "mern stack"
     },
     {
         title: 'Iphone website Clone',
@@ -34,7 +35,7 @@ const projects = [
         link: '#',
         git: '#',
         src: proj3,
-        type: "full stack"
+        type: "mern stack"
     },
     {
         title: 'Portfolio website',
@@ -42,7 +43,7 @@ const projects = [
         devstack: 'React,  Framer Motion, Tailwind CSS',
         link: '#',
         git: '#',
-        src: null,
+        src: proj4,
         type: "frontend"
     }
 ]
